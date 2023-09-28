@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     background-color: black;
     color: white;
+   /* background: url(portifólio/IMGcodigodeprogamaçao.png.webp) repeat-y;*/
 }
 strong{
     color: #22D4FD;
@@ -39,5 +40,27 @@ strong{
     text-decoration: none;
     color: #cdb8b8;
     font-family: 'Montserrat', 'sans-serif';
-
 }
+
+.navigation{
+    background-color:cadetblue;
+    width:100vw;
+  }
+  .navigation li{
+    list-style: none;
+  }
+  .navigation a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  .navigation a:hover{
+    text-decoration: underline;
+    /* para tirar a linha que fica abaixo da referencia*/
+    background-color: black;
+    color: green;
+  }
+  .navigation ul{
+    display: flex;
+    justify-content: space-around;
+    /*dar espaço padronizado entre as tags*/
+  }
